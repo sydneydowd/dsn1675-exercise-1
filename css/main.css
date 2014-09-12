@@ -31,18 +31,26 @@ img {
 }
 
 .figure {
-    display:inline-block;
-    width: 100%;
     margin: 0;
+    position: relative;
 }
 
 .figcaption {
-    position: relative;
-    bottom: 70px;
+    position: absolute;
+    bottom: 0;
     color: white;
     font-family: serif;
     margin:1rem;
 }
+
+h1 {
+    margin: 1rem;
+}
+
+.info {
+    float: left;
+    
+    
 
 
 
