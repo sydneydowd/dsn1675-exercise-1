@@ -8,6 +8,8 @@ html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+    
+    background-color: lightgrey;
 
   font: normal 100%/1.5 sans-serif;
   -moz-text-size-adjust: 100%;
@@ -30,6 +32,12 @@ img {
   width: 100%;
 }
 
+.dino {
+    background-color: #fff;
+    width: 100%;
+    overflow: hidden;
+}
+
 .figure {
     margin: 0;
     position: relative;
@@ -48,8 +56,15 @@ h1 {
 }
 
 .info {
+    padding:1em;
     float: left;
-    
+    width: 33.3333%;
+    border-right: 1px solid #ccc; 
+}
+ 
+.info:last-child {
+    border:0;
+}
     
 
 
